@@ -269,7 +269,7 @@ install_playit() {
   printf "%sPlayit tunnel install selected.%s\n\n" "$GREEN" "$NC"
 
   # Run directly (no task/progress wrapper), so prompts/output work normally.
-  bash <(curl -fsSL https://raw.githubusercontent.com/JishnuTheGamer/Vps/refs/heads/main/playit-2)
+  bash <(curl -fsSL https://raw.githubusercontent.com/ShadowCraftMC2026/vpsmaker/refs/heads/main/tools/playit.sh)
 
   pause
 }
