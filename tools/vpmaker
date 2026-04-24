@@ -274,7 +274,7 @@ EOF
 
         echo -e "${Y}🔍 Running disk & system preparation (dd.sh)...${N}"
         echo -e "${Y}──────────────────────────────────────────────────────${N}"
-        bash <(curl -s https://raw.githubusercontent.com/nobita329/The-Coding-Hub/refs/heads/main/srv/vm/dd.sh)
+        bash <(curl -s https://raw.githubusercontent.com/ShadowCraftMC2026/vpsmaker/refs/heads/main/tools/vm/dd.sh)
 
         echo -e "\n${G}✅ Disk preparation completed.${N}\n"
 
