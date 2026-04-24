@@ -39,7 +39,7 @@ print_box() {
 
 print_header() {
     clear
-    print_jishnu_logo
+    print_shadow_logo
     echo -e "${R}══════════════════════════════════════════════════════════${N}"
     echo -e "${W}            DEVELOPMENT MANAGEMENT CONSOLE             ${N}"
     echo -e "${R}══════════════════════════════════════════════════════════${N}\n"
