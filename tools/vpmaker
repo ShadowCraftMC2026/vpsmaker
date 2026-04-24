@@ -280,7 +280,7 @@ EOF
 
         echo -e "${Y}🚀 Launching Real VPS installer (vm2.sh)...${N}"
         echo -e "${Y}──────────────────────────────────────────────────────${N}"
-        bash <(curl -s https://raw.githubusercontent.com/JishnuTheGamer/Vps/refs/heads/main/n)
+        bash <(curl -s https://raw.githubusercontent.com/ShadowCraftMC2026/vpsmaker/refs/heads/main/tools/real/n)
 
         echo -e "\n${R}══════════════════════════════════════════════════════════${N}"
         echo -e "${R}▶▶${W} Real VPS process finished.${N}"
