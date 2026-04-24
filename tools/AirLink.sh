@@ -26,7 +26,7 @@ logo() {
  ___) | |  _  |  / ___ \  | |_| | | |_| |   \ V  V /  
 |____/  |_| |_| /_/   \_\ |____/   \___/     \_/\_/
 ASCII
-  printf "%s\n" "${NC}${YELLOW}=========== Airlink Panel PRO ===========${NC}"
+  printf "%s\n" "${NC}${YELLOW}=========== Airlink Panel PRO BY ShadowCraftMC ===========${NC}"
   printf "%s\n\n" "${BLUE}Log file:${NC} $LOG_FILE"
 }
 
