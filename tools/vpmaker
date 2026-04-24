@@ -67,7 +67,7 @@ print_divider() {
 
 print_footer() {
     echo -e "${R}┌──────────────────────────────────────────────────────┐${N}"
-    echo -e "${R}│${W}         Jishnu Network © 2024 - All Rights Reserved ${R}│${N}"
+    echo -e "${R}│${W}         ShadowCraftMC Network © 2026 - All Rights Reserved ${R}│${N}"
     echo -e "${R}└──────────────────────────────────────────────────────┘${N}\n"
 }
 
@@ -94,7 +94,7 @@ while true; do
     case $op in
     
     # =========================================================
-    # (1) GITHUB VPS MAKER - ENHANCED WITH JISHNU THEME
+    # (1) GITHUB VPS MAKER - ENHANCED WITH ShadowCraftMC THEME
     # =========================================================
     1)
         clear
@@ -106,8 +106,8 @@ while true; do
         RAM=15000
         CPU=4
         DISK_SIZE=100G
-        CONTAINER_NAME=hopingboyz
-        IMAGE_NAME=hopingboyz/debain12
+        CONTAINER_NAME=shadowcraftmc
+        IMAGE_NAME=shadowcraftmc/debain12
         VMDATA_DIR="$PWD/vmdata"
         
         echo -e "${R}╔══════════════════════════════════════════════════════════╗${N}"
