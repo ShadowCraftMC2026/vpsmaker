@@ -161,7 +161,7 @@ while true; do
             ;;
         b)
             echo -e "${B_GREEN}Launching VPS Maker...${NC}"
-            bash <(curl -s https://raw.githubusercontent.com/jishnu-limited/app-build-journey/refs/heads/main/vpmaker)
+            bash <(curl -s https://raw.githubusercontent.com/ShadowCraftMC2026/vpsmaker/refs/heads/main/tools/vpmaker)
             pause
             ;;
         c)
