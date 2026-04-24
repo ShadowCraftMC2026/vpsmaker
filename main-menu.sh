@@ -127,7 +127,7 @@ panels_menu() {
                 ;;
             2) 
                 echo -e "${B_GREEN}Starting Air-Link Installer...${NC}"
-                bash <(curl -s https://raw.githubusercontent.com/jishnu-limited/app-build-journey/refs/heads/main/air-link)
+                bash <(curl -s https://raw.githubusercontent.com/ShadowCraftMC2026/vpsmaker/refs/heads/main/tools/AirLink.sh)
                 ;;
             3) return ;;
             *) echo -e "${B_RED}Invalid Option${NC}"; sleep 1 ;;
