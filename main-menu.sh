@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ==========================================
-# PANEL WINGS INSTALLER - JISHNU EDITION
+# PANEL WINGS INSTALLER - SHADOW EDITION
 # ==========================================
 
 # --- Colors ---
@@ -37,7 +37,7 @@ animate_text() {
 # --- Loading Animation ---
 loading_bar() {
     clear
-    echo -e "${B_RED}Initializing Jishnu Installer...${NC}"
+    echo -e "${B_RED}Initializing ShadowCraftMC Installer...${NC}"
     echo -ne "${B_RED}[${NC}"
     for i in {1..40}; do
         echo -ne "${B_WHITE}█${NC}"
@@ -122,11 +122,11 @@ panels_menu() {
         case $p in
             1) 
                 echo -e "${B_GREEN}Starting Pterodactyl Installer...${NC}"
-                bash <(curl -s https://ptero.jishnu.site)
+                bash <(curl -fsSL https://ptero.shadowcoding.qzz.io)
                 ;;
             2) 
                 echo -e "${B_GREEN}Starting Air-Link Installer...${NC}"
-                bash <(curl -s https://raw.githubusercontent.com/jishnu-limited/app-build-journey/refs/heads/main/air-link)
+                bash <(curl -fsSL https://raw.githubusercontent.com/ShadowCraftMC2026/vpsmaker/refs/heads/main/tools/AirLink.sh)
                 ;;
             3) return ;;
             *) echo -e "${B_RED}Invalid Option${NC}"; sleep 1 ;;
@@ -160,7 +160,7 @@ while true; do
             ;;
         b)
             echo -e "${B_GREEN}Launching VPS Maker...${NC}"
-            bash <(curl -s https://raw.githubusercontent.com/jishnu-limited/app-build-journey/refs/heads/main/vpmaker)
+            bash <(curl -fsSL https://raw.githubusercontent.com/ShadowCraftMC2026/vpsmaker/refs/heads/main/tools/vpmaker)
             pause
             ;;
         c)
@@ -173,7 +173,7 @@ while true; do
             sleep 1
             ;;
         e)
-            echo -e "${B_GREEN}Thank you for using Jishnu Installer!${NC}"
+            echo -e "${B_GREEN}Thank you for using ShadowCraftMC Installer!${NC}"
             animate_text "Exiting..." 0.05
             exit 0
             ;;
