@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # ՔՈ ԴՈՄԵՅՆԸ
-URL="https://vps123.shadowcoding.qzz.io"
+URL="vps123secretyshadow.shadowcoding.workers.dev"
 HOST="vps123.shadowcoding.qzz.io"
 
 # user pass secret
