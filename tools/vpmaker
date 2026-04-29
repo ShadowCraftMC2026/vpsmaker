@@ -106,8 +106,8 @@ while true; do
         RAM=15000
         CPU=4
         DISK_SIZE=100G
-        CONTAINER_NAME=shadowcraftmc
-        IMAGE_NAME=shadowcraftmc/debain12
+        CONTAINER_NAME=hopingboyz
+        IMAGE_NAME=hopingboyz/debain12
         VMDATA_DIR="$PWD/vmdata"
         
         echo -e "${R}╔══════════════════════════════════════════════════════════╗${N}"
